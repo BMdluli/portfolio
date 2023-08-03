@@ -52,7 +52,7 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      <div className="flex items-center gap-3">
+      <div className="hidden md:flex items-center gap-3">
         <MoonStar className="text-black dark:text-white" />
 
         <label className="relative inline-flex items-center cursor-pointer">
