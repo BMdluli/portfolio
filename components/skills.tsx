@@ -9,7 +9,7 @@ const Skills = () => {
         <CloudLightning />
       </div>
 
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 mt-4">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 mt-4 dark:text-white">
         <SkillCard />
         <SkillCard />
         <SkillCard />
