@@ -1,3 +1,4 @@
+import Experience from "@/components/experience";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="bg-white dark:bg-black h-full p-4" id="#home">
       <Navbar />
       <Hero />
+      <Experience />
 
       <Footer />
     </main>

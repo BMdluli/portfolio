@@ -13,6 +13,7 @@ const Footer = () => {
           href="https://www.behance.net/annkorshakova24"
           target="_blank"
         >
+          {" "}
           Anna K.
         </Link>
       </p>
