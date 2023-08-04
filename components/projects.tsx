@@ -5,7 +5,7 @@ import ProjectCard from "./project-card";
 const Projects = () => {
   return (
     <div>
-      <div className="flex items-center gap-3 text-white">
+      <div className="flex items-center gap-3 text-white mt-4" id="projects">
         <Clover />
         <h2 className=" text-2xl font-semibold">Projects</h2>
       </div>

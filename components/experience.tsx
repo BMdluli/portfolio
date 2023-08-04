@@ -3,7 +3,7 @@ import ExperiencCard from "./experience-card";
 
 const Experience = () => {
   return (
-    <div className="mt-4">
+    <div className="mt-4" id="experience">
       <div className="flex items-center gap-3 dark:text-white">
         <Briefcase />
         <h2>Experience</h2>
