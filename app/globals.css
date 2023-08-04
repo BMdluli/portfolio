@@ -11,3 +11,7 @@ body,
 body {
   @apply bg-white dark:bg-black;
 }
+
+html {
+  color-scheme: light;
+}
