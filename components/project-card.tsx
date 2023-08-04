@@ -16,7 +16,7 @@ const ProjectCard = () => {
 
       <div className="md:flex md:flex-col md:w-1/2 md:justify-between">
         <div className="flex justify-between mt-4">
-          <div className="text-white flex items-center gap-3">
+          <div className="dark:text-white flex items-center gap-3">
             <CustomIcon
               className=""
               icon={<Clover className="text-secondary" />}

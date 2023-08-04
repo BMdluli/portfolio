@@ -1,6 +1,7 @@
 import { CloudLightning } from "lucide-react";
 import SkillCard from "./skill-card";
 import CustomIcon from "./custom-icon";
+import skills from "@/public/skills";
 
 const Skills = () => {
   return (
@@ -14,10 +15,9 @@ const Skills = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4 mt-4 dark:text-white">
-        <SkillCard />
-        <SkillCard />
-        <SkillCard />
-        <SkillCard />
+        {skills.map((skill) => (
+          <SkillCard image={skill.icon} text={skill.text} />
+        ))}
       </div>
     </div>
   );

@@ -1,9 +1,15 @@
 import Image from "next/image";
-const SkillCard = () => {
+
+interface SkillCardProps {
+  text: string;
+  image: string;
+}
+
+const SkillCard: React.FC<SkillCardProps> = ({ text, image }) => {
   return (
     <div className="flex gap-3 items-center font-semibold bg-light-gray dark:bg-dark-gray p-3 rounded-2xl">
-      <Image src="/icon-react.svg" alt="react" width={28} height={28} />
-      <p>React</p>
+      <Image src={image} alt="react" width={28} height={28} />
+      <p>{text}</p>
     </div>
   );
 };
