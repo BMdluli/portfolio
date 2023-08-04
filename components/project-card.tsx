@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Clover } from "lucide-react";
+import CustomIcon from "./custom-icon";
 
 const ProjectCard = () => {
   return (
@@ -16,7 +17,10 @@ const ProjectCard = () => {
       <div className="md:flex md:flex-col md:w-1/2 md:justify-between">
         <div className="flex justify-between mt-4">
           <div className="text-white flex items-center gap-3">
-            <Clover className="text-secondary" />
+            <CustomIcon
+              className=""
+              icon={<Clover className="text-secondary" />}
+            />
             <h3>MOLOMO NR</h3>
           </div>
 
