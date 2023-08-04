@@ -8,7 +8,7 @@ interface HeroCardProps {
 
 const HeroCard: React.FC<HeroCardProps> = ({ title, icon, className }) => {
   return (
-    <div className={cn("rounded-2xl", className)}>
+    <div className={cn("rounded-2xl w-full", className)}>
       {icon}
       <p>{title}</p>
     </div>
