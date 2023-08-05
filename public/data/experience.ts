@@ -1,0 +1,63 @@
+const experience = [
+  {
+    id: 0,
+    date: "Jul 2022 - Present",
+    role: "Software Developer at DMSA",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    technologies: [
+      "React",
+      "Wordpress",
+      "Node.js",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Next.js",
+      "Git",
+      "Bitbucket",
+      "Redux",
+      "Google Cloud",
+    ],
+  },
+  {
+    id: 1,
+    date: "Jun 2021 - Jul 2022",
+    role: "Software developer at Afrika Tikkun",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Adobe XD",
+      "Figma",
+      "Javascript",
+      "Flutter",
+      "Git",
+      "Dart",
+      "Firebase",
+    ],
+  },
+  {
+    id: 2,
+    date: "Feb 2021 - Apr 2021",
+    role: "Mobile Developer at The lab",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    technologies: [
+      "Xamarin",
+      "C#",
+      "Git",
+      "Bitbucket",
+      "Javascript",
+      "HTML",
+      "CSS",
+    ],
+  },
+  {
+    id: 3,
+    date: "Jun 2020 - Dec 2020",
+    role: "Web developer intern at DMSA",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    technologies: ["HTML", "CSS", "Javascript", "MongoDB", "Node.js"],
+  },
+];
+
+export default experience;

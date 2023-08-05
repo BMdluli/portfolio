@@ -1,24 +1,29 @@
-import React from "react";
+import Skill from "./skill";
 
-const ExperiencCard = () => {
+interface ExperienceProps {
+  date: string;
+  role: string;
+  text: string;
+  technologies: string[];
+}
+
+const ExperiencCard: React.FC<ExperienceProps> = ({
+  date,
+  role,
+  text,
+  technologies,
+}) => {
   return (
     <div className="bg-light-gray dark:bg-dark-gray p-4 rounded-2xl">
       <div>
-        <p className="text-dark-gray dark:text-light-gray text-sm">
-          2022 - 2023
-        </p>
-        <h3 className="dark:text-white mt-3 font-bold">Full Stack developer</h3>
+        <p className="text-dark-gray dark:text-light-gray text-sm">{date}</p>
+        <h3 className="dark:text-white mt-3 font-bold">{role}</h3>
       </div>
-      <p className="text-dark-gray dark:text-light-gray mt-4 text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis
-        reiciendis atque similique nobis ipsam delectus corrupti eveniet iure
-        quos, modi libero, consectetur autem, dolores animi natus exercitationem
-        molestias!
-      </p>
-      <div className="mt-4">
-        <span className="bg-primary/10 dark:bg-secondary/10 text-primary dark:text-secondary px-2  py-1 font-medium rounded-full">
-          React
-        </span>
+      <p className="text-dark-gray dark:text-light-gray mt-4 text-sm">{text}</p>
+      <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+        {technologies.map((tech, idx) => (
+          <Skill key={idx} skill={tech} />
+        ))}
       </div>
     </div>
   );

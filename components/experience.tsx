@@ -1,6 +1,7 @@
 import { Briefcase } from "lucide-react";
 import ExperiencCard from "./experience-card";
 import CustomIcon from "./custom-icon";
+import experience from "@/public/data/experience";
 
 const Experience = () => {
   return (
@@ -14,8 +15,14 @@ const Experience = () => {
       </div>
 
       <div className="grid gap-2 md:grid-cols-2 mt-4">
-        <ExperiencCard />
-        <ExperiencCard />
+        {experience.map((xp) => (
+          <ExperiencCard
+            date={xp.date}
+            role={xp.role}
+            text={xp.text}
+            technologies={xp.technologies}
+          />
+        ))}
       </div>
     </div>
   );
