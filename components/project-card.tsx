@@ -8,7 +8,7 @@ const ProjectCard = () => {
     <div className="bg-light-gray dark:bg-dark-gray p-4 rounded-2xl md:flex md:flex-row-reverse gap-4">
       <Image
         className="w-full rounded-2xl md:w-1/2"
-        src="/molomonr.png"
+        src="https://c4.wallpaperflare.com/wallpaper/339/998/542/space-landscape-planet-1920-x-1080-wallpaper-preview.jpg"
         alt="Molomonr"
         width={1920}
         height={1080}

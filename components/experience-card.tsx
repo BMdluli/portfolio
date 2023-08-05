@@ -20,7 +20,7 @@ const ExperiencCard: React.FC<ExperienceProps> = ({
         <h3 className="dark:text-white mt-3 font-bold">{role}</h3>
       </div>
       <p className="text-dark-gray dark:text-light-gray mt-4 text-sm">{text}</p>
-      <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+      <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {technologies.map((tech, idx) => (
           <Skill key={idx} skill={tech} />
         ))}

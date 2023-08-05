@@ -15,7 +15,7 @@ const experience = [
       "Git",
       "Bitbucket",
       "Redux",
-      "Google Cloud",
+      "GCP",
     ],
   },
   {
