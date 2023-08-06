@@ -45,7 +45,7 @@ const Navbar = () => {
       <nav className="hidden md:block text-black dark:text-white ">
         <ul className="flex gap-14">
           {routes.map((route) => (
-            <Link
+            <a
               className={cn(
                 route.active ? "text-secondary" : "text-black dark:text-white"
               )}
@@ -53,7 +53,7 @@ const Navbar = () => {
               href={route.href}
             >
               {route.label}
-            </Link>
+            </a>
           ))}
         </ul>
       </nav>

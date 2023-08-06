@@ -25,14 +25,14 @@ const MobileNav: React.FC<MobileNavProps> = ({ isOpen, setIsOpen }) => {
 
       <ul className="font-semibold space-y-4 text-lg ml-2">
         <li>
-          <Link href="/">Home</Link>
+          <a href="/">Home</a>
         </li>
         <li>
-          <Link href="/#projects">Projects</Link>
+          <a href="/#projects">Projects</a>
         </li>
 
         <li>
-          <Link href="mailto:bekithemba.mdluli.bm@gmail.com">Contact</Link>
+          <a href="mailto:bekithemba.mdluli.bm@gmail.com">Contact</a>
         </li>
       </ul>
     </div>

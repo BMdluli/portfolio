@@ -17,7 +17,7 @@ const HeroCard: React.FC<HeroCardProps> = ({
   section,
 }) => {
   return (
-    <Link href={section} className={cn("rounded-2xl w-full", className)}>
+    <a href={section} className={cn("rounded-2xl w-full", className)}>
       <div
         className={cn(
           "bg-white h-9 w-9 flex justify-center items-center rounded-lg it",
@@ -27,7 +27,7 @@ const HeroCard: React.FC<HeroCardProps> = ({
         {icon}
       </div>
       <p>{title}</p>
-    </Link>
+    </a>
   );
 };
 
