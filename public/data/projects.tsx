@@ -15,6 +15,14 @@ const projects = [
     live: "https://molomonr.co.za",
     image: "/portfolio.png",
   },
+  {
+    id: 2,
+    title: "Expense (Coming soon)",
+    text: "This web app allows me to track my expenses and who owes me money.",
+    repo: "",
+    live: "",
+    image: "/expense.png",
+  },
 ];
 
 export default projects;
