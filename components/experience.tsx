@@ -17,6 +17,7 @@ const Experience = () => {
       <div className="grid gap-2 md:grid-cols-2 mt-4">
         {experience.map((xp) => (
           <ExperiencCard
+            key={xp.id}
             date={xp.date}
             role={xp.role}
             text={xp.text}

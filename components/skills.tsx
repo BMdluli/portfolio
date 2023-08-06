@@ -16,7 +16,7 @@ const Skills = () => {
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4 mt-4 dark:text-white">
         {skills.map((skill) => (
-          <SkillCard image={skill.icon} text={skill.text} />
+          <SkillCard key={skill.id} image={skill.icon} text={skill.text} />
         ))}
       </div>
     </div>
