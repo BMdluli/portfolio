@@ -30,20 +30,6 @@ const Navbar = () => {
     },
   ];
 
-  // setTheme("light");
-
-  // const handleChange = () => {
-  //   setSelected(!isSelected);
-
-  //   if (isSelected) {
-  //     setTheme("light");
-  //   } else {
-  //     setTheme("dark");
-  //   }
-
-  //   console.log(isSelected);
-  // };
-
   return (
     <header className="flex bg-light-gray dark:bg-dark-gray justify-between items-center px-3 md:px-5 h-[45px] md:h-14 rounded-full">
       <Image

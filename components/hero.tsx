@@ -4,9 +4,9 @@ import Navbar from "./navbar";
 
 const Hero = () => {
   return (
-    <div className="h-screen">
+    <div className="h-[90vh]">
       <Navbar />
-      <h1 className="text-black font-bold dark:text-white text-3xl md:text-6xl md:text-center tracking-widest mt-16">
+      <h1 className="text-black font-bold dark:text-white text-3xl md:text-6xl md:text-center tracking-widest mt-16 md:mt-36">
         Bekithemba Mdluli <br />
       </h1>
 
@@ -14,7 +14,7 @@ const Hero = () => {
         Frontend Developer
       </h2>
 
-      <div className="flex flex-col md:flex-row gap-4 md:h-[345px] w-full mt-4">
+      <div className="flex flex-col md:flex-row gap-4 md:h-[345px] w-full mt-4 md:mt-16">
         <div className="md:w-[42%]">
           <HeroCard
             title="About"
