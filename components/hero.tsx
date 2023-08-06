@@ -41,11 +41,11 @@ const Hero = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-4 mt-4 md:mt-0 md:w-[40%]">
+          <div className="flex flex-col gap-4 mt-4 md:mt-0 md:w-[40%] ">
             <HeroCard
               title="Contact me"
               icon={<Mail className="text-white" />}
-              className="bg-white flex gap-3  h-[98px] p-3 md:h-full"
+              className="bg-light-gray text-black flex gap-3  h-[98px] p-3 md:h-full"
               iconClass="bg-black"
             />
 
