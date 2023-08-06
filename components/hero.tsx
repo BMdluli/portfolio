@@ -1,15 +1,17 @@
 import { Clover, Mail, Paperclip, Sparkle, Workflow } from "lucide-react";
 import HeroCard from "./hero-card";
+import Navbar from "./navbar";
 
 const Hero = () => {
   return (
-    <div className="mt-16">
-      <h1 className="text-black font-bold dark:text-white text-3xl md:text-6xl md:text-center tracking-widest">
+    <div className="h-screen">
+      <Navbar />
+      <h1 className="text-black font-bold dark:text-white text-3xl md:text-6xl md:text-center tracking-widest mt-16">
         Bekithemba Mdluli <br />
       </h1>
 
       <h2 className="font-medium text-center text-black dark:text-white text-3xl md:text-6xl mt-3">
-        Developer
+        Frontend Developer
       </h2>
 
       <div className="flex flex-col md:flex-row gap-4 md:h-[345px] w-full mt-4">

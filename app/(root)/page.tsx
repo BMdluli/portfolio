@@ -8,7 +8,7 @@ import Skills from "@/components/skills";
 export default function Home() {
   return (
     <main className="h-full p-4 max-w-[1440px] md:mx-auto" id="#home">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <div className="h-screen bg-rose-500 py-auto"> */}
       <Hero />
       {/* </div> */}
