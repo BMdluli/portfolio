@@ -10,7 +10,7 @@ const projects = [
   {
     id: 1,
     title: "Portfolio Website",
-    text: "My Portfolio website",
+    text: "My Portfolio website with a light and dark mode toggle",
     repo: "",
     live: "https://molomonr.co.za",
     image: "/portfolio.png",

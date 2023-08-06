@@ -7,11 +7,13 @@ import { Menu, MoonStar, Sun } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
 import { useState } from "react";
+import MobileNav from "./mobile-nav";
 
 const Navbar = () => {
   const pathname = usePathname();
   const { setTheme } = useTheme();
   const [isSelected, setSelected] = useState(false);
+  const [isOpen, setOpened] = useState<boolean>(false);
   const routes = [
     {
       href: "/",
@@ -24,7 +26,7 @@ const Navbar = () => {
       active: pathname === `#projects`,
     },
     {
-      href: "/#contact",
+      href: "mailto:bekithemba.mdluli.bm@gmail.com",
       label: "Contact",
       active: pathname === `#contact`,
     },
@@ -76,9 +78,10 @@ const Navbar = () => {
         <Sun className="text-black dark:text-white" />
       </div>
 
-      <button className="md:hidden">
-        <Menu className="text-white dark:text-primary" />
+      <button className="md:hidden" onClick={() => setOpened(true)}>
+        <Menu className="text-primary" />
       </button>
+      <MobileNav isOpen={isOpen} setIsOpen={setOpened} />
     </header>
   );
 };
