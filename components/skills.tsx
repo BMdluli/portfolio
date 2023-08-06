@@ -1,7 +1,7 @@
 import { CloudLightning } from "lucide-react";
 import SkillCard from "./skill-card";
 import CustomIcon from "./custom-icon";
-import skills from "@/public/skills";
+import skills from "@/public/data/skills";
 
 const Skills = () => {
   return (

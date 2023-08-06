@@ -3,13 +3,27 @@ import Link from "next/link";
 import { Clover } from "lucide-react";
 import CustomIcon from "./custom-icon";
 
-const ProjectCard = () => {
+interface ProjectCardProps {
+  title: string;
+  text: string;
+  repo: string;
+  live: string;
+  image: string;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  title,
+  text,
+  repo,
+  live,
+  image,
+}) => {
   return (
     <div className="bg-light-gray dark:bg-dark-gray p-4 rounded-2xl md:flex md:flex-row-reverse gap-4">
       <Image
         className="w-full rounded-2xl md:w-1/2"
-        src="https://c4.wallpaperflare.com/wallpaper/339/998/542/space-landscape-planet-1920-x-1080-wallpaper-preview.jpg"
-        alt="Molomonr"
+        src={image}
+        alt={title}
         width={1920}
         height={1080}
       />
@@ -21,23 +35,19 @@ const ProjectCard = () => {
               className=""
               icon={<Clover className="text-secondary" />}
             />
-            <h3>MOLOMO NR</h3>
+            <h3>{title}</h3>
           </div>
 
-          <p className="dark: text-white">2022</p>
+          {/* <p className="dark: text-white">2022</p> */}
         </div>
 
-        <p className=" dark:text-light-gray mt-4 text-sm">
-          Molomo Nr is a steel company. The company specializes in the
-          manufacturing of racking, mezzanine, shelving, and storage solutions
-          that meet the needs of businesses in various industries.
-        </p>
+        <p className=" dark:text-light-gray mt-4 text-sm">{text}</p>
 
         <div className="text-secondary flex justify-between mt-4 md:items-end">
-          <Link href="/" className="cursor-not-allowed">
-            Private Repo
+          <Link href={repo === "" ? "/" : repo} className="cursor-not-allowed">
+            {repo === "" ? "Private Repo" : "Github"}
           </Link>
-          <Link href="https:molomonr.co.za">View site</Link>
+          <Link href={live}>View site</Link>
         </div>
       </div>
     </div>

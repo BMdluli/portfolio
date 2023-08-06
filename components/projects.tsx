@@ -2,6 +2,7 @@ import { Clover } from "lucide-react";
 import React from "react";
 import ProjectCard from "./project-card";
 import CustomIcon from "./custom-icon";
+import projects from "@/public/data/projects";
 
 const Projects = () => {
   return (
@@ -18,8 +19,16 @@ const Projects = () => {
       </div>
 
       <div className="space-y-4 mt-4">
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            title={project.title}
+            text={project.text}
+            repo={project.repo}
+            live={project.live}
+            image={project.image}
+          />
+        ))}
       </div>
     </>
   );
