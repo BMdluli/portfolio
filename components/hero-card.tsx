@@ -1,10 +1,12 @@
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 interface HeroCardProps {
   title: string;
   icon: any;
   className: string;
   iconClass: string;
+  section: string;
 }
 
 const HeroCard: React.FC<HeroCardProps> = ({
@@ -12,9 +14,10 @@ const HeroCard: React.FC<HeroCardProps> = ({
   icon,
   className,
   iconClass,
+  section,
 }) => {
   return (
-    <div className={cn("rounded-2xl w-full", className)}>
+    <Link href={section} className={cn("rounded-2xl w-full", className)}>
       <div
         className={cn(
           "bg-white h-9 w-9 flex justify-center items-center rounded-lg it",
@@ -24,7 +27,7 @@ const HeroCard: React.FC<HeroCardProps> = ({
         {icon}
       </div>
       <p>{title}</p>
-    </div>
+    </Link>
   );
 };
 
