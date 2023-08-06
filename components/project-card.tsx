@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Clover } from "lucide-react";
 import CustomIcon from "./custom-icon";
+import { cn } from "@/lib/utils";
 
 interface ProjectCardProps {
   title: string;
@@ -21,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <div className="bg-light-gray dark:bg-dark-gray p-4 rounded-2xl md:flex md:flex-row-reverse gap-4">
       <Image
-        className="w-full rounded-2xl md:w-1/2"
+        className="w-full rounded-2xl md:w-1/2 object-cover"
         src={image}
         alt={title}
         width={1920}
@@ -44,10 +45,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <p className=" dark:text-light-gray mt-4 text-sm">{text}</p>
 
         <div className="text-secondary flex justify-between mt-4 md:items-end">
-          <Link href={repo === "" ? "/" : repo} className="cursor-not-allowed">
+          <Link
+            href={repo === "" ? "/" : repo}
+            className={cn(repo === "" ? "cursor-not-allowed" : "")}
+          >
             {repo === "" ? "Private Repo" : "Github"}
           </Link>
-          <Link href={live}>View site</Link>
+          <Link
+            href={live}
+            className={cn(live === "" ? "cursor-not-allowed" : "")}
+          >
+            {live === "" ? "SOON" : "View site"}
+          </Link>
         </div>
       </div>
     </div>
