@@ -3,7 +3,7 @@ const experience = [
     id: 0,
     date: "Jul 2022 - Present",
     role: "Software Developer at DMSA",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    text: "Responsibilities Include: Convert UI Designs to mobile applications and mobile apps. Naintaining and adding features to internal systems.",
     technologies: [
       "React",
       "Wordpress",
@@ -22,7 +22,7 @@ const experience = [
     id: 1,
     date: "Jun 2021 - Jul 2022",
     role: "Software developer at Afrika Tikkun",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    text: "Responsibilities Include: Converting UI designs to mobile applications and websites. Research and development. UI design. Setting up backend services.",
     technologies: [
       "HTML",
       "CSS",
@@ -40,7 +40,7 @@ const experience = [
     id: 2,
     date: "Feb 2021 - Apr 2021",
     role: "Mobile Developer at The lab",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    text: "Converting UI design into mobile application. Research and development. Implementing responsiveness to existing applications.",
     technologies: [
       "Xamarin",
       "C#",
@@ -55,7 +55,7 @@ const experience = [
     id: 3,
     date: "Jun 2020 - Dec 2020",
     role: "Web developer intern at DMSA",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum quis reiciendis atque similique nobis ipsam delectus corrupti eveniet iure quos, modi libero, consectetur autem, dolores animi natus exercitationem molestias!",
+    text: "Convert UI design into web application. maintain existing dashboard system. Connecting web app to backend.",
     technologies: ["HTML", "CSS", "Javascript", "MongoDB", "Node.js"],
   },
 ];
