@@ -10,6 +10,7 @@ interface ProjectCardProps {
   repo: string;
   live: string;
   image: string;
+  second: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -18,6 +19,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   repo,
   live,
   image,
+  second,
 }) => {
   return (
     <div className="bg-light-gray dark:bg-dark-gray p-4 rounded-2xl md:flex md:flex-row-reverse gap-4">
@@ -50,7 +52,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             className={cn(repo === "" ? "cursor-not-allowed" : "")}
           >
             {repo === "" ? "Private Repo" : "Github"}
-          </Link>
+          </Link>{" "}
+          {second && <Link href={second}>Backend</Link>}
           <Link
             href={live}
             className={cn(live === "" ? "cursor-not-allowed" : "")}
