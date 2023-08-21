@@ -19,7 +19,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Expense (Coming soon)",
+    title: "Expense",
     text: "Expense and loan tracker web application built with React, Express, Nodejs, MongoDB, and shadcn ui components",
     repo: "https://github.com/PutTheTrust/expense-frontend",
     second: "https://github.com/PutTheTrust/expense-backend",
