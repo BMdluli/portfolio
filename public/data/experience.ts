@@ -3,7 +3,7 @@ const experience = [
     id: 0,
     date: "Jul 2022 - Present",
     role: "Software Developer at DMSA",
-    text: "Responsibilities Include: Convert UI Designs to mobile applications and mobile apps. Naintaining and adding features to internal systems.",
+    text: "Responsibilities Include: Convert UI Designs to mobile applications and mobile apps. Maintaining and adding features to internal systems.",
     technologies: [
       "React",
       "Wordpress",
