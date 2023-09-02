@@ -27,8 +27,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         className="w-full rounded-2xl md:w-1/2 object-cover"
         src={image}
         alt={title}
-        width={500}
-        height={50}
+        width={700}
+        height={1080}
       />
 
       <div className="md:flex md:flex-col md:w-1/2 md:justify-between">
