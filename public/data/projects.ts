@@ -25,7 +25,7 @@ const projects = [
     repo: "https://github.com/PutTheTrust/countries",
     live: "https://countries-iota-orpin.vercel.app/",
     second: "",
-    image: "/countries.png",
+    image: "/country.png",
   },
   {
     id: 3,
