@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="flex justify-between items-center dark:text-white text-[8px] md:text-base mt-4">
       <Image src="/logo.svg" alt="logo" width={36} height={36} />
-      <p>Copyright 2023 © Bekithemba Mdluli</p>
+      <p>Copyright {new Date().getFullYear()} © Bekithemba Mdluli</p>
       <p>
         Designed by
         <Link

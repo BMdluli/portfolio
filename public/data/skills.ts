@@ -56,8 +56,8 @@ const skills = [
   },
   {
     id: 11,
-    text: "React Native",
-    icon: "/icon-react.svg",
+    text: "Swift",
+    icon: "/icon-swift.png",
   },
 ];
 

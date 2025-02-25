@@ -1,7 +1,25 @@
 const experience = [
   {
     id: 0,
-    date: "Jul 2022 - Present",
+    date: "Jan 2024 - Present",
+    role: "Javascript Developer",
+    text: "Responsibilities Include: Convert UI Designs to mobile applications and mobile apps. Maintaining and adding features to internal systems.",
+    technologies: [
+      "React",
+      "Javascript",
+      "Node.js",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Git",
+      "Bitbucket",
+      "Redux",
+      "AWS",
+    ],
+  },
+  {
+    id: 1,
+    date: "Jul 2022 - Dec 2023",
     role: "Software Developer at DMSA",
     text: "Responsibilities Include: Convert UI Designs to mobile applications and mobile apps. Maintaining and adding features to internal systems.",
     technologies: [
@@ -19,7 +37,7 @@ const experience = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     date: "Jun 2021 - Jul 2022",
     role: "Software developer at Afrika Tikkun",
     text: "Responsibilities Include: Converting UI designs to mobile applications and websites. Research and development. UI design. Setting up backend services.",
@@ -37,7 +55,7 @@ const experience = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     date: "Feb 2021 - Apr 2021",
     role: "Mobile Developer at The lab",
     text: "Converting UI design into mobile application. Research and development. Implementing responsiveness to existing applications.",
@@ -52,7 +70,7 @@ const experience = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     date: "Jun 2020 - Dec 2020",
     role: "Web developer intern at DMSA",
     text: "Convert UI design into web application. maintain existing dashboard system. Connecting web app to backend.",
