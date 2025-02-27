@@ -13,7 +13,7 @@ const projects = [
     title: "Raspberry: Track Savings",
     text: "This is an ios app that helps users create savings goals and track progress of savings.",
     repo: "https://github.com/BMdluli/trezo",
-    live: "https://testflight.apple.com/join/4VbYkkT8",
+    live: "https://apps.apple.com/za/app/raspberry-budget-tracker/id6741527621",
     second: "",
     image: "/raspberry.png",
   },
