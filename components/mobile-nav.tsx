@@ -19,7 +19,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ isOpen, setIsOpen }) => {
           animate={{ y: "0%", opacity: 1 }} // Slide into place
           exit={{ y: "-100%", opacity: 0 }} // Slide out when closed
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed inset-0 bg-black dark:bg-white text-white dark:text-black h-[30%] shadow-lg z-50"
+          className="fixed inset-0 bg-black dark:bg-white text-white dark:text-black h-[300px] shadow-lg z-50"
         >
           <X
             className="text-white dark:text-black h-10 w-10 ml-auto mt-4 mr-4 cursor-pointer"

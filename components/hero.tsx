@@ -10,11 +10,8 @@ const Hero = () => {
   let titleStyle =
     "font-medium text-black dark:text-white text-3xl md:text-6xl";
   return (
-    <div className="h-[90vh]">
+    <div>
       <Navbar />
-      {/* <h1 className="text-black font-bold dark:text-white text-3xl md:text-6xl text-center tracking-widest mt-16 md:mt-36">
-        Bekithemba Mdluli <br />
-      </h1> */}
 
       <div>
         <div className="flex gap-2 md:gap-4 justify-center ">
